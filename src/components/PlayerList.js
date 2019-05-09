@@ -11,9 +11,7 @@ const PlayerList = () => {
             <Player 
               {...player}
               key={player.id.toString()} 
-              index={index}
-              changeScore={context.actions.changeScore}
-              removePlayer={context.actions.removePlayer}           
+              index={index}     
             />
           )}
         </React.Fragment>
